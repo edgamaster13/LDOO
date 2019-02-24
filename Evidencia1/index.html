@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Futbol Americano</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style = "background-image:url('Fondo.jpg');">
+        <link rel="stylesheet" href="CSS.css"> <!--Mandar a llamar hoja de estilos-->
+        <script src="JS.js"></script> <!--Manadar a llamar los javascript-->
+        
+        <img src = "NFL.png" width = "150" alt = "NFL" align = "left"><br>
+        <div id="navegador">
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Safety_(posici%C3%B3n)">Free-Safety</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Linebacker">Line-Backer</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Cornerback">Corners</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Running_back">Running-Back</a></li>
+            </ul>
+        </div>
+        <br><br><br><br><br><h2>Futbol Americano</h2>
+        <p>El fútbol americano (en inglés american football, o simplemente football en los Estados Unidos y Canadá.)
+           nació hace más de cien años en EE. UU. derivado del rugby inglés. Es uno de los deportes de contacto más
+           competitivos de los EE. UU. y que se practica actualmente en más de 60 países.</p><br>
+        <p>La mayor manifestación competitiva y mediática de este deporte se da en la National Football League <a href="https://www.nfl.com/">(NFL)</a>,
+            la liga de fútbol americano profesional de Estados Unidos. El fútbol americano universitario,
+            que se practica a nivel amateur en todo el país, también goza de gran popularidad.</p>
+        <p STYLE= "text-align:center"> TE GUSTO ESTE ARTICULO?</p>
+        <p STYLE= "text-align:center"><button onClick= "gusto()" >Si</button>
+        <button onClick= "NoLeGusto()">No</button></p>
+        <p STYLE= "text-align:center">Nos interesa saber a que equipo le vas escogelo</p>
+        <p STYLE= "text-align:center">
+            <select name="EQUIPOS">
+                <option value="1">Buffalo Bills</option> 
+                <option value="2">Miami Dolphins</option> 
+                <option value="3">New England Patriots</option>
+                <option value="10">New York Jets</option> 
+                <option value="11">Baltimore Ravens</option> 
+                <option value="12">Cincinnati Bengals</option> 
+                <option value="1">Cleveland Browns</option> 
+                <option value="2">Pittsburgh Steelers</option> 
+                <option value="3">Denver Broncos</option>
+                <option value="10">Kansas City Chiefs</option> 
+                <option value="11">Los Angeles Chargers</option> 
+                <option value="12">Oakland Raiders</option> 
+                <option value="1">Houston Texans</option> 
+                <option value="2">Indianapolis Colts</option> 
+                <option value="3">Jacksonville Jaguars</option>
+                <option value="10">Tennessee Titans</option> 
+                <option value="11">Dallas Cowboys</option> 
+                <option value="12">New York Giants</option> 
+                <option value="1">Philadelphia Eagles</option> 
+                <option value="2">Washington Redskins</option> 
+                <option value="3">Chicago Bears</option>
+                <option value="10">Detroit Lions</option> 
+                <option value="11">Green Bay Packers</option> 
+                <option value="12">Minnesota Vikings</option> 
+                <option value="12">Arizona Cardinals</option> 
+                <option value="12">Los Angeles Rams</option> 
+                <option value="12">San Francisco 49ers</option> 
+                <option value="12">Seattle Seahawks</option> 
+                <option value="12">Atlanta Falcons</option> 
+                <option value="12">Carolina Panthers</option> 
+                <option value="12">New Orleans Saints</option> 
+                <option value="12">Tampa Bay Buccaneers</option>   
+            </select>
+        </p>
+        <p STYLE= "text-align:center">
+        <button onclick = "Recargar()">A este le voy</button>
+        </p>
+        <br><br><br><br><br>
+        <button onclick="Hora()">Por si no tienes la hora en tu computadora da click para verla!</button>
+        <p id="lahora" style="color:#ff9900"></p>
+        
+    </body>
+</html>
